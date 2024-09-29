@@ -56,7 +56,7 @@ function App() {
                                 type={'text'}
                                 value={newThought}
                                 onChange={(e) => setNewThought(e.target.value)}
-                                placeholder={'What is on your mind?'}
+                                placeholder={"What's on your mind?"}
                                 className='flex-grow px-4 py-2 border border-grey-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400'
                             />
                             <button
